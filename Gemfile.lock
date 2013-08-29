@@ -1,10 +1,3 @@
-GIT
-  remote: git@github.com:SeanHolden/speechcloud.git
-  revision: edaf04d6f4e24e049dcc4ddb91e6098546a7f20d
-  specs:
-    speechcloud (0.1)
-      httparty
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -21,6 +14,8 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
+    speechcloud (0.1.1)
+      httparty
     tilt (1.4.1)
 
 PLATFORMS
@@ -29,4 +24,4 @@ PLATFORMS
 DEPENDENCIES
   json
   sinatra
-  speechcloud!
+  speechcloud
