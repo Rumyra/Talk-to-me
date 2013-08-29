@@ -269,3 +269,7 @@ pre {
 .wrapper > footer {
   padding-top: 10px;
   text-align: right; }
+
+.disabled {
+  opacity:.2;
+}
